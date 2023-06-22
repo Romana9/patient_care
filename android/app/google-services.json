@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "403418697479",
+    "project_id": "savior-care-b8f67",
+    "storage_bucket": "savior-care-b8f67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403418697479:android:afa7bc827b21f972aabfa2",
+        "android_client_info": {
+          "package_name": "com.uihut.saviorcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403418697479-g1b00a14unn3kqbcai4b37qb77n2g203.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_8M0zlS-DLN7rr_zRxuJjM4h_Uk5RRp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403418697479-g1b00a14unn3kqbcai4b37qb77n2g203.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
