@@ -110,13 +110,6 @@ class _DrawerScreenState extends State<DrawerScreen> {
                     child: Text('Nearby Doctors',
                         style: KTextStyle.regular
                             .copyWith(color: KColor.white, fontSize: 18))),
-
-                    TextButton(
-                    onPressed: () {},
-                    child: Text('History Patient',
-                        style: KTextStyle.regular
-                            .copyWith(color: KColor.white, fontSize: 18))),
-
                 Stack(
                   children: [
                     TextButton(

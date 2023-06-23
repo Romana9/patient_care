@@ -42,6 +42,7 @@ dependencies:
   flutter_slidable: ^3.0.0
   fluttertoast: ^8.2.2
   google_fonts: ^2.3.1
+  percent_indicator: ^4.2.3
   provider: null
   radio_group_v2: ^2.1.2
   shared_preferences: null
