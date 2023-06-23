@@ -28,7 +28,7 @@ class _HistoryState extends State<History> {
     },
     {
       'text1': "Body Temperature",
-      'text2': "29°C",
+      'text2': "37°C",
       'percent1': "15%",
       'percent2': 0.15,
       'color1': const Color(0xff796EFF),
@@ -44,7 +44,7 @@ class _HistoryState extends State<History> {
     },
     {
       'text1': "Body Height",
-      'text2': "5.6” inc",
+      'text2': "176” cm",
       'percent1': "30%",
       'percent2': 0.30,
       'color1': const Color(0xffFFA900),
@@ -141,7 +141,6 @@ class _HistoryState extends State<History> {
                       height: KSize.getHeight(context, 112),
                       width: KSize.getWidth(context, 156),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(136, 226, 224, 224),
                           borderRadius: BorderRadius.circular(15)),
                       child: Column(
                         children: [
@@ -207,7 +206,7 @@ class _HistoryState extends State<History> {
               ]),
               SizedBox(height: KSize.getHeight(context, 7)),
               Row(children: [
-                Text("Dr. Sphen Conley",
+                Text("Dr. Ahmed Hassan",
                     style: KTextStyle.regular.copyWith(
                         color:
                             _darkTheme ? KColor.white : const Color(0xff5F666F),
@@ -248,7 +247,7 @@ class _HistoryState extends State<History> {
               ]),
               SizedBox(height: KSize.getHeight(context, 7)),
               Row(children: [
-                Text("Stephen Conley (1 month)",
+                Text("Ahmed Hassan (1 month)",
                     style: KTextStyle.regular.copyWith(
                         color:
                             _darkTheme ? KColor.white : const Color(0xff5F666F),

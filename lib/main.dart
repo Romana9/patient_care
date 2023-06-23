@@ -46,21 +46,20 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => PatientCubit(),
       child: MaterialApp(
-          title: 'Patient Care',
-          theme: themeNotifier.getTheme(),
-          debugShowCheckedModeBanner: false,
-          home: const SplashLog()
-          // StreamBuilder(
-          //   stream: FirebaseAuth.instance.authStateChanges(),
-          //   builder: (context, snapshot) {
-          //     if (snapshot.hasData) {
-          //       return const SplashLog();
-          //     } else {
-          //       return const SplashScreen();
-          //     }
-          //   },
-          // ),
-          ),
+        title: 'Patient Care',
+        theme: themeNotifier.getTheme(),
+        debugShowCheckedModeBanner: false,
+        home: StreamBuilder(
+          stream: FirebaseAuth.instance.authStateChanges(),
+          builder: (context, snapshot) {
+            if (snapshot.hasData) {
+              return const SplashLog();
+            } else {
+              return const SplashScreen();
+            }
+          },
+        ),
+      ),
     );
   }
 }
