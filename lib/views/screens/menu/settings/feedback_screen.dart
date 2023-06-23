@@ -60,7 +60,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
               itemPadding: const EdgeInsets.symmetric(horizontal: 5.0),
               itemBuilder: (context, _) => const Icon(
                 Icons.star,
-                color: KColor.gray,
+                color: KColor.orange,
                 size: 40,
         
               ),

@@ -94,13 +94,16 @@ class _AccountInfoScreenState extends State<AccountInfoScreen> {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                accountInfo('Name', 'Nabil Elsawy'),
-                accountInfo('Email', 'Nabil@gmail.com'),
-                accountInfo('Phone', '+201012345678'),
+                accountInfo('Name', 'Eslam Oraby'),
+                accountInfo('Email', 'Nassereslam902@gmail.com'),
+                accountInfo('Phone', '+201025670324'),
                 accountInfo('Location', 'Mansoura,Eg'),
                 accountInfo('Gender', 'Male'),
                 SizedBox(height: KSize.getHeight(context, 197)),
-                Center(child: KButton(text: 'Save', color: KColor.mediumslateblue.withOpacity(0.5),textColor: KColor.white.withOpacity(0.2)))
+                Center(child: KButton(
+                  onPressedCallback: () { Navigator.pop(context);} ,
+                  text: 'Save', 
+                  color: KColor.mediumslateblue.withOpacity(0.5),textColor: KColor.white.withOpacity(0.2)))
               ],
             )
           ],

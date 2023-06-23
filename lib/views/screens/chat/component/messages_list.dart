@@ -31,13 +31,13 @@ class MessegesList extends StatelessWidget {
         'id': 3,
         'image': const AssetImage(AssetPath.peaterParker),
         'name': 'Dr. Fares',
-        'message': 'Thank you ! Get Well Soon'
+        'message': 'Thank you ! Be Carefull'
       },
       {
         'id': 4,
         'image': const AssetImage(AssetPath.boy3),
         'name': 'Dr. Ramy',
-        'message': 'Cool. You’ll better soon'
+        'message': 'Take care about yourself'
       },
     ];
     return SingleChildScrollView(

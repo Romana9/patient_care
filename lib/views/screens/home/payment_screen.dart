@@ -373,7 +373,12 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   Center(
                       child: KButton(
                           onPressedCallback: () async {
-                            await PatientCubit.get(context).addNotification(heading: widget.name);
+                            await PatientCubit.get(context)
+                                .addNotification(heading: widget.name);
+                            await PatientCubit.get(context).addupcoming(
+                                image: widget.image,
+                                name: widget.name,
+                                designation: widget.designation);
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(

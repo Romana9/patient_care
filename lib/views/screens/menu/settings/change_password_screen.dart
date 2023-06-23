@@ -65,6 +65,7 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
                 height: KSize.getHeight(context, 16),
               ),
               KTextField(
+
                 isheightChanged: true,
                 height: 60,
                 controller: oldPasswordController,
@@ -114,6 +115,9 @@ class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
               SizedBox(height: KSize.getHeight(context, 268)),
               Center(
                   child: KButton(
+                    onPressedCallback: () {
+                Navigator.pop(context);
+              },
                       text: 'Save',
                       textColor: isButtonActive? KColor.white:KColor.white.withOpacity(0.2),
                       color: isButtonActive

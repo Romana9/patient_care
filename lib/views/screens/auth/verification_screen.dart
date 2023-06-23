@@ -37,14 +37,14 @@ class _VerificationScreenState extends State<VerificationScreen> {
                       color: _darkTheme ? KColor.white : KColor.maastrichtBlue),
                 ),
                 const SizedBox(height: 10),
-                Text('Hey Nabil.\nLet’s verify your account!',
+                Text('Hey Eslam.\nLet’s verify your account!',
                     style: KTextStyle.normal.copyWith(
                         color:
                             _darkTheme ? KColor.white : KColor.maastrichtBlue,
                         fontWeight: FontWeight.w400)),
                 const SizedBox(height: 14),
                 Text(
-                  'Verification code sent on sam*****mail.com',
+                  'Verification code sent on nas*****mail.com',
                   style: KTextStyle.regularText.copyWith(
                       fontSize: 14,
                       color: _darkTheme ? KColor.darkdimgray : KColor.dimgray),

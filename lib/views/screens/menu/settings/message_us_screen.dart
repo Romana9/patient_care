@@ -137,7 +137,7 @@ class _MessegeUsScreenState extends State<MessegeUsScreen> {
               itemPadding: const EdgeInsets.symmetric(horizontal: 5.0),
               itemBuilder: (context, _) => const Icon(
                 Icons.star,
-                color: KColor.gray,
+                color: Color.fromARGB(255, 234, 255, 0),
                 size: 40,
               ),
               onRatingUpdate: (rating) {},

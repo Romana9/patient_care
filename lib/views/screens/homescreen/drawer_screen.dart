@@ -69,10 +69,10 @@ class _DrawerScreenState extends State<DrawerScreen> {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text('Nabil Elsawy',
+                              Text('Eslam Oraby',
                                   style: KTextStyle.regular.copyWith(
                                       color: KColor.white, fontSize: 20)),
-                              Text('nabil@gmail.com',
+                              Text('nassereslam902@gmail.com',
                                   style: KTextStyle.regularText.copyWith(
                                       color: KColor.white, fontSize: 14))
                             ],
@@ -110,6 +110,13 @@ class _DrawerScreenState extends State<DrawerScreen> {
                     child: Text('Nearby Doctors',
                         style: KTextStyle.regular
                             .copyWith(color: KColor.white, fontSize: 18))),
+
+                    TextButton(
+                    onPressed: () {},
+                    child: Text('History Patient',
+                        style: KTextStyle.regular
+                            .copyWith(color: KColor.white, fontSize: 18))),
+
                 Stack(
                   children: [
                     TextButton(

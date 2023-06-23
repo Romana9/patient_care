@@ -11,6 +11,7 @@ import 'package:saviorcare/views/styles/b_style.dart';
 import '../../../../controller/theme.dart';
 import '../../../../controller/theme/them_notifier.dart';
 import '../../startup/on_boarding_screen.dart';
+import '../../startup/plan_screen.dart';
 import 'change_password_screen.dart';
 import 'feedback_screen.dart';
 
@@ -163,7 +164,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                                 MaterialPageRoute(
                                                     builder: (_) =>
                                                         const ChangePasswordScreen()))
-                                            : null;
+                                            : otherSettingList[index]['id'] == 6
+                                                ? Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(
+                                                        builder: (_) =>
+                                                            const PlanScreen()))
+                                                : null;
                                   },
                                   child: Container(
                                     margin: const EdgeInsets.only(

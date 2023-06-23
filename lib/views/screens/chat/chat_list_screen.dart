@@ -69,7 +69,8 @@ class _ChatListScreenState extends State<ChatListScreen> {
         title: Text('Chat',
             style: KTextStyle.regular.copyWith(
                 color: _darkTheme ? KColor.white : KColor.maastrichtBlue,
-                fontWeight: FontWeight.w600)),
+                fontWeight: FontWeight.w600,
+                fontSize: 22)),
       ),
 
       body: SingleChildScrollView(
@@ -101,7 +102,7 @@ class _ChatListScreenState extends State<ChatListScreen> {
                 hasPrefixIcon: true,
                 prefixIcon: Container(
                     // padding: EdgeInsets.all(13),
-                    margin: const EdgeInsets.only(top: 1, right:8),
+                    margin: const EdgeInsets.only(top: 1, right: 8),
                     child: const Image(
                       image: AssetImage(AssetPath.search),
                       width: 20,
