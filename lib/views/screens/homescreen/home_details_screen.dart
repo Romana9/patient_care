@@ -108,7 +108,7 @@ class _HomeDetailsScreenState extends State<HomeDetailsScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Good Morning ! Eslam Oraby',
+                          'Good Morning ! Khaled Romana',
                           style: KTextStyle.regularText.copyWith(
                               color: _darkTheme
                                   ? KColor.darkdimgray

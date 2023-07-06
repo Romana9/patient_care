@@ -60,7 +60,7 @@ class _SplashLogState extends State<SplashLog> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "Coded by FCIS",
+                "Coded by Romana",
                 style: KTextStyle.regularText.copyWith(
                     color: _darkTheme ? KColor.white : KColor.maastrichtBlue),
               ),

@@ -79,7 +79,7 @@ class _HistoryState extends State<History> {
                 ],
               ),
               SizedBox(height: KSize.getHeight(context, 20)),
-              Text("Eslam Oraby",
+              Text("Khaled Romana",
                   style: KTextStyle.regular.copyWith(
                       color: _darkTheme ? KColor.white : KColor.maastrichtBlue,
                       fontWeight: FontWeight.w600,

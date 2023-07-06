@@ -96,9 +96,9 @@ class _AccountInfoScreenState extends State<AccountInfoScreen> {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    accountInfo('Name', 'Eslam Oraby'),
-                    accountInfo('Email', 'Nassereslam902@gmail.com'),
-                    accountInfo('Phone', '+201025670324'),
+                    accountInfo('Name', 'Khaled Romana'),
+                    accountInfo('Email', 'khaledromana7@gmail.com'),
+                    accountInfo('Phone', '+201014176652'),
                     accountInfo('Location', 'Mansoura,Eg'),
                     accountInfo('Gender', 'Male'),
                     InkWell(

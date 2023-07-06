@@ -69,7 +69,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text('Eslam Oraby',
+                              Text('Khaled Romana',
                                   style: KTextStyle.regular.copyWith(
                                       color: KColor.white, fontSize: 20)),
                               Text('nassereslam902@gmail.com',
